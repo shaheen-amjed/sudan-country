@@ -99,10 +99,10 @@ const Home = () => {
     </button>
     <Link href={`/`} className="text-xl">Sudan</Link>
     <Link href={`#modern`} className='dif'>Modern</Link>
-    <Link href={`/`} className='dif'>Culture & history</Link>
-    <Link href={`/`} className='dif'>Icons</Link>
-    <Link href={`/`} className='dif'>Identity</Link>
-    <Link href={`/`} className='dif' >Message</Link>
+    <Link href={`#cluture`} className='dif'>Culture & history</Link>
+    <Link href={`#icons`} className='dif'>Icons</Link>
+    <Link href={`#identity`} className='dif'>Identity</Link>
+    <Link href={`#messag`} className='dif' >Message</Link>
   </div>
 )}
 
