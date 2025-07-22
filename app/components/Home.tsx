@@ -71,7 +71,7 @@ const Home = () => {
   }, [])
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
-  const isMobile = useMediaQuery({ maxWidth: 1024 }) // يظهر السايدبار في الشاشات الصغيرة فقط
+  const isMobile = useMediaQuery({ maxWidth: 1024 })
 
 
   return (
@@ -111,7 +111,7 @@ const Home = () => {
   <div className="px-5 bg-none backdrop-blur-md sticky top-0 opacity-0 text-white navBar flex gap-10 flex-row flex-wrap justify-center items-center z-10">
     <Link className="mr-auto lg:text-7xl md:text-5xl sm:text-4xl text-4xl" href={`/`}>Sudan</Link>
     <Link href={`#modern`} className='dif'>Modern</Link>
-    <Link href={`#cluture`} className='dif'>Culture & history</Link>
+    <Link href={`#culture`} className='dif'>Culture & history</Link>
     <Link href={`#icons`} className='dif'>Icons</Link>
     <Link href={`#identity`} className='dif'>Identity</Link>
     <Link href={`#message`} className='dif'>Message</Link>
