@@ -102,7 +102,7 @@ const Home = () => {
     <Link href={`#cluture`} className='dif'>Culture & history</Link>
     <Link href={`#icons`} className='dif'>Icons</Link>
     <Link href={`#identity`} className='dif'>Identity</Link>
-    <Link href={`#messag`} className='dif' >Message</Link>
+    <Link href={`#message`} className='dif' >Message</Link>
   </div>
 )}
 
@@ -114,7 +114,7 @@ const Home = () => {
     <Link href={`#cluture`} className='dif'>Culture & history</Link>
     <Link href={`#icons`} className='dif'>Icons</Link>
     <Link href={`#identity`} className='dif'>Identity</Link>
-    <Link href={`#messag`} className='dif'>Message</Link>
+    <Link href={`#message`} className='dif'>Message</Link>
   </div>
 )}
 
