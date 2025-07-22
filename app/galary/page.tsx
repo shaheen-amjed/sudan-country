@@ -89,7 +89,10 @@ export default function GalleryPage() {
           <h1 className="dif brdr history-text text-white text-4xl">
             Galary fo our history and Cluture
           </h1>
-          <Link href='/'>Go back Home</Link>
+          <br />
+          <div className='flex justify-start text-white text-xl text-left'>
+            <Link className='bg-white btn text-black p-2 shadow-xl dif rounded-xl' href={`/`} target='__blank'>Go Back Home</Link>
+          </div>
         </div>
         <div className="flex lg:p-60 md:p-55 lg:gap-10 md:gap-10 flex-col flex-wrap justify-center items-center gap-4">
           {images.map((src, idx) => (
